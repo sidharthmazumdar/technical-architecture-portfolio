@@ -1,6 +1,6 @@
 # Case Study 3: Event-Driven AI Credit Underwriting & Forensic Document Verification Copilot
 **Domain:** Fintech / Commercial Lending & SME Credit  
-**Engineering Firm:** Quaapton AI Solutions Pvt. Ltd.  
+**Company:** Quaapton AI Solutions Pvt. Ltd.  
 **Timeline:** 2026  
 **Role:** Co-Founder & Chief Technology Officer (CTO)  
 **Status:** In Production  

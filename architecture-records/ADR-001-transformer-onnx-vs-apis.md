@@ -1,6 +1,6 @@
 # ADR-001: Fine-Tuned Transformer Models on ONNX Runtime vs. Cloud APIs
 - **Status:** Accepted  
-- **Date:** 2022-03-15  
+- **Date:** 2023  
 - **Deciders:** Sidharth Mazumdar (Lead Systems Architect), Walmart Supply Chain Platform Team  
 - **Technical Context:** High-throughput inbound trailer discrepancy resolution (Walmart WMS, 2021–2023).  
 

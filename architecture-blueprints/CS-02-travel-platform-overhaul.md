@@ -1,7 +1,7 @@
 # Case Study 2: Full-Stack Cloud Architecture & Distributed Booking Engine Overhaul
 **Client:** High-Growth Experiential Travel Company (Leading Adventure & Group Travel Platform)  
-**Engineering Firm:** Quaapton AI Solutions Pvt. Ltd.  
-**Timeline:** Calendar Year 2025  
+**Company:** Quaapton AI Solutions Pvt. Ltd.  
+**Timeline:** 2025  
 **Role:** Co-Founder & Chief Technology Officer (CTO)  
 **Status:** In Production  
 

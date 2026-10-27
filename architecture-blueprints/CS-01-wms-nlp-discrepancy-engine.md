@@ -1,5 +1,6 @@
 # Case Study 1: Predictive Inbound Slotting & NLP-Driven Discrepancy Resolution Engine
-**Domain:** Global Retail Supply Chain & WMS (Fortune 1 Scale &mdash; Walmart Global Tech)  
+**Domain:** Global Retail Supply Chain & WMS 
+**Company:** Walmart Global Tech  
 **Timeline:** August 2021 &ndash; December 2023  
 **Architect:** Sidharth Mazumdar  
 **Status:** In Production  

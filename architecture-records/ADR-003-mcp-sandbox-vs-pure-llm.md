@@ -1,6 +1,6 @@
 # ADR-003: Model Context Protocol (MCP) & Sandbox vs. Pure LLM Calculations
 - **Status:** Accepted  
-- **Date:** 2026-02-14  
+- **Date:** 2026 
 - **Deciders:** Sidharth Mazumdar (CTO), Enterprise Risk & AI Architecture Board  
 - **Technical Context:** AI Credit Underwriting Copilot (Fintech Commercial Lending Domain, 2026).  
 

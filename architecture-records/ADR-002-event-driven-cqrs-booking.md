@@ -1,6 +1,6 @@
 # ADR-002: Event-Driven Microservices & CQRS vs. Monolithic Architecture
 - **Status:** Accepted  
-- **Date:** 2025-01-20  
+- **Date:** 2025 
 - **Deciders:** Sidharth Mazumdar (CTO), Platform Engineering Team  
 - **Technical Context:** Core backend overhaul for high-growth travel company handling high-concurrency booking and inventory management (2025).  
 
