@@ -7,7 +7,7 @@
 ---
 
 ## Executive Overview
-This portfolio documents production-grade architectural blueprints, Architectural Decision Records (ADRs), and technical governance standards developed across 14+ years of systems engineering. The architectures showcased here span Fortune 1 scale (Walmart Global Tech), Tier-1 capital markets and open banking (NatWest / RBS, European PSD2), and executive startup delivery as Co-Founder & CTO at Quaapton AI Solutions.
+This portfolio documents production-grade architectural blueprints, Architectural Decision Records (ADRs), and technical governance standards developed across 14+ years of systems engineering. The architectures showcased here span retail tech, Tier-1 capital markets and open banking and executive startup delivery as Co-Founder & CTO at Quaapton AI Solutions.
 
 Every case study follows the **C4 Architectural Modeling Standard** (Context, Container, Component, Code/Sequence) with runnable Mermaid.js diagrams, concrete operational trade-offs, security compliance boundaries (GDPR, BaFin/PSD2), and FinOps optimization metrics, strictly reflecting the technology state-of-the-art at the time of execution.
 
@@ -18,7 +18,7 @@ Every case study follows the **C4 Architectural Modeling Standard** (Context, Co
 ```text
 ├── README.md                                    # Executive summary, bio, and architectural principles
 ├── architecture-blueprints/
-│   ├── CS-01-wms-nlp-discrepancy-engine.md     # Case Study 1: Inbound Slotting & NLP Engine (Walmart Scale, 2021–2023)
+│   ├── CS-01-wms-nlp-discrepancy-engine.md     # Case Study 1: Inbound Slotting & NLP Engine (Retail Tech)
 │   ├── CS-02-travel-platform-overhaul.md        # Case Study 2: Cloud Overhaul & Distributed Booking Engine (Travel Platform, 2025)
 │   └── CS-03-fintech-ai-underwriting-copilot.md # Case Study 3: Forensic AI Underwriting Copilot & MCP Sandbox (Quaapton Finance, 2026)
 ├── architecture-records/

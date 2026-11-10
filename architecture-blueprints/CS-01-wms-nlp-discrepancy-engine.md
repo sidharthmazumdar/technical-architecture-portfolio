@@ -1,6 +1,6 @@
 # Case Study 1: Predictive Inbound Slotting & NLP-Driven Discrepancy Resolution Engine
 **Domain:** Global Retail Supply Chain & WMS 
-**Company:** Walmart Global Tech  
+**Company:** Retail Tech  
 **Timeline:** August 2021 &ndash; December 2023  
 **Architect:** Sidharth Mazumdar  
 **Status:** In Production  
@@ -8,12 +8,12 @@
 ---
 
 ## 1. Business Context & Problem Statement
-Between 2021 and 2023, Walmart's North American logistics distribution centers processed tens of thousands of freight trailers and inbound pallets daily. Discrepancies between Advanced Shipping Notices (ASNs), Electronic Data Interchange (EDI) feeds (ANSI X12 856), and physically unloaded dock inventory caused widespread operational bottlenecks.
+Retail Tech company's North American logistics distribution centers processed tens of thousands of freight trailers and inbound pallets daily. Discrepancies between Advanced Shipping Notices (ASNs), Electronic Data Interchange (EDI) feeds (ANSI X12 856), and physically unloaded dock inventory caused widespread operational bottlenecks.
 
 Key operational hurdles in the 2021–2023 enterprise environment:
 * **Unstructured Bill of Lading (BOL) & Manifest Friction:** Receiving associates encountered non-standard scanned manifests and handwritten carrier exception slips (e.g., damaged cartons, missing pallet tags, partial cross-dock overrides).
 * **Manual Resolution Delays:** Discrepancy resolution required manual cross-referencing across terminal screens and relational inventory tables, taking **15 to 45 minutes per shipment** and compounding trailer yard congestion.
-* **Enterprise Security & Tech Constraints:** Commercial generative LLM APIs were either unreleased or strictly prohibited under enterprise infosec policies. All machine learning, entity extraction, and semantic matching models had to be fine-tuned, audited, and hosted internally within private Azure/Walmart Cloud clusters using proven neural architectures (fine-tuned RoBERTa, DistilBERT, LayoutLMv2, and ONNX Runtime).
+* **Enterprise Security & Tech Constraints:** Commercial generative LLM APIs were either unreleased or strictly prohibited under enterprise infosec policies. All machine learning, entity extraction, and semantic matching models had to be fine-tuned, audited, and hosted internally within private Azure Cloud clusters using proven neural architectures (fine-tuned RoBERTa, DistilBERT, LayoutLMv2, and ONNX Runtime).
 
 ---
 
@@ -33,7 +33,7 @@ graph TD
     DockWorker["Receiving Dock Associate / Yard Lead"]
     EDI_Feeds["Carrier EDI Systems<br/>(EDI 856 ASN / EDI 214)"]
 
-    subgraph Walmart_WMS["Walmart Supply Chain Cloud Platform (2021-2023)"]
+    subgraph WMS["Retail Supply Chain Cloud Platform (2021-2023)"]
         Gateway["Enterprise Ingress Gateway (Apigee)<br/>[mTLS, OAuth2, Rate Limiting]"]
         IntakeEngine["Intelligent Inbound Discrepancy Engine<br/>(Python 3.9, FastAPI, Triton Inference Server)"]
         CoreWMS["Core WMS Enterprise Services<br/>(Java 11, Spring Boot 2.7, Apache Kafka)"]
